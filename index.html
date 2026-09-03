@@ -1994,31 +1994,6 @@
             <p class="hero-quote reveal">"Wishing you happiness, good health, and all your dreams come true." 🤍</p>
         </section>
 
-        <!-- ─── BOUQUET ─── -->
-        <section id="bouquet">
-            <p class="section-label reveal">— A Little Gift —</p>
-            <h2 class="section-title reveal">A Digital Bouquet for You</h2>
-            <p class="section-subtitle reveal">Each flower holds a little message just for you</p>
-            <div class="bouquet-container reveal">
-                <div class="bouquet-flowers" id="bouquetFlowers"></div>
-                <div class="bouquet-stems">
-                    <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M150 190 C145 160 130 130 110 95" stroke="#7A9E6A" stroke-width="3" fill="none" stroke-linecap="round" />
-                        <path d="M150 190 C150 150 150 120 150 85" stroke="#7A9E6A" stroke-width="3.5" fill="none" stroke-linecap="round" />
-                        <path d="M150 190 C155 160 170 130 190 95" stroke="#7A9E6A" stroke-width="3" fill="none" stroke-linecap="round" />
-                        <path d="M150 185 C140 155 120 135 95 110" stroke="#7A9E6A" stroke-width="2.5" fill="none" stroke-linecap="round" />
-                        <path d="M150 185 C160 155 180 135 205 110" stroke="#7A9E6A" stroke-width="2.5" fill="none" stroke-linecap="round" />
-                        <ellipse cx="130" cy="140" rx="12" ry="6" fill="#7A9E6A" opacity="0.8" transform="rotate(-30 130 140)" />
-                        <ellipse cx="170" cy="140" rx="12" ry="6" fill="#7A9E6A" opacity="0.8" transform="rotate(30 170 140)" />
-                    </svg>
-                </div>
-                <div class="bouquet-ribbon"></div>
-            </div>
-            <div class="bouquet-message" id="bouquetMsg">
-                <p>Touch each flower to reveal its message 💕</p>
-            </div>
-        </section>
-
         <!-- ─── LETTER ─── -->
         <section id="letter">
             <p class="section-label reveal">— A LETTER —</p>
@@ -2247,43 +2222,18 @@
 
         // ─── CONFIG ────────────────────────────────────────────────────
         const CONFIG = {
-            PIN: '270704',
+            PIN: '030806',
             PLAYLIST: [
+                { name: 'Long Live', artist: 'Taylor Swift',
+                    url: 'https://file.garden/amY8vlkR9Rqi5Az6/YTDown.com_YouTube_Taylor-Swift-Long-Live-Taylor-s-Version-_Media_F5TMU6916U8_009_128k.mp3' },
                 { name: 'Happy Birthday', artist: 'GMS Live',
                     url: 'https://file.garden/amY8vlkR9Rqi5Az6/Happy%20Birthday.mp3' },
                 { name: 'Dolia', artist: 'Honor Of Kings',
                     url: 'https://file.garden/amY8vlkR9Rqi5Az6/Dolia%20Song.mp3' },
-                { name: 'Angel Baby', artist: 'Troye Sivan',
-                    url: 'https://file.garden/alGM7SlwpAfCa6pI/Backstreet%20Boys%20-%20Shape%20of%20My%20Heart%20Lyrics.mp3' }
             ],
             POLAROIDS: [
                 { caption: 'kiw kiw WKWKWKWK', url: 'https://lh3.googleusercontent.com/d/17I9EVDd6q6v08200_QaW5qwVgg2YDFNC' }
             ],
-            BOUQUET: [
-                { emoji: '🌸', msg: 'Kamu secantik bunga sakura — selalu membawa kebahagiaan dan keindahan.', x: 47,
-                    y: 4 },
-                { emoji: '🌺', msg: 'Seperti kembang sepatu, kamu selalu bersemangat dan bercahaya.', x: 25, y: 18 },
-                { emoji: '🌷', msg: 'Tulus seperti tulip — murni, elegan, dan selalu memikat.', x: 67, y: 16 },
-                { emoji: '🌼', msg: 'Ceria seperti daisy — sederhana namun mencerahkan setiap hari.', x: 15, y: 40 },
-                { emoji: '🌹', msg: 'Kamu adalah orang terindah yang pernah aku kenal — penuh kebaikan dan kehangatan.',
-                    x: 80, y: 38 },
-                { emoji: '🌻', msg: 'Seperti bunga matahari, kamu selalu menghadap cahaya dan berbagi kehangatan.',
-                    x: 35, y: 52 },
-                { emoji: '💐', msg: 'Ini semua untukmu — karena kamu pantas mendapatkan semua keindahan di dunia.',
-                    x: 60, y: 55 }
-            ],
-            REASONS: [
-                'Tawamu selalu bisa membuat hari yang buruk terasa lebih ringan.',
-                'Cara kamu peduli pada orang lain itu langka dan berharga.',
-                'Kekuatanmu di saat sulit selalu menginspirasiku.',
-                'Kamu membuat momen sederhana terasa istimewa.',
-                'Kejujuranmu menunjukkan betapa kuatnya karaktermu.',
-                'Kebaikanmu mencerminkan betapa indahnya hatimu.',
-                'Kamu menerimaku apa adanya, dengan segala kekuranganku.',
-                'Semangatmu pada hal-hal yang kamu cintai itu sangat mengagumkan.',
-                'Kehadiranmu membuat ruangan terasa lebih hangat dan nyaman.',
-                'Kamu adalah orang terbaik yang pernah aku temui, dan aku sangat bersyukur.'
-            ]
         };
 
         // ─── STATE ────────────────────────────────────────────────────
